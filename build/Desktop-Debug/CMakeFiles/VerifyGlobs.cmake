@@ -42,6 +42,8 @@ endif()
 file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false "/home/vladimir/Fractals/*.cpp")
 set(OLD_GLOB
   "/home/vladimir/Fractals/build/Desktop-Debug/CMakeFiles/3.28.3/CompilerIdCXX/CMakeCXXCompilerId.cpp"
+  "/home/vladimir/Fractals/build/Desktop-Debug/Fractals_autogen/EWIEGA46WW/moc_mainwindow.cpp"
+  "/home/vladimir/Fractals/build/Desktop-Debug/Fractals_autogen/mocs_compilation.cpp"
   "/home/vladimir/Fractals/main.cpp"
   "/home/vladimir/Fractals/mainwindow.cpp"
   )
@@ -62,6 +64,8 @@ endif()
 # _directory_contents at /usr/lib/x86_64-linux-gnu/cmake/Qt6LinguistTools/Qt6LinguistToolsMacros.cmake:83 (file)
 file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false "/home/vladimir/Fractals/*.h")
 set(OLD_GLOB
+  "/home/vladimir/Fractals/build/Desktop-Debug/Fractals_autogen/include/ui_mainwindow.h"
+  "/home/vladimir/Fractals/build/Desktop-Debug/Fractals_autogen/moc_predefs.h"
   "/home/vladimir/Fractals/mainwindow.h"
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")

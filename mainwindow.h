@@ -2,6 +2,8 @@
 #define MAINWINDOW_H
 
 #include <QMainWindow>
+#include <QVector>
+#include <QPoint>
 
 QT_BEGIN_NAMESPACE
 namespace Ui {
@@ -17,7 +19,11 @@ public:
     MainWindow(QWidget *parent = nullptr);
     ~MainWindow();
 
+    QVector<QPoint> points;
+    void drawPoint(QPoint point);
+
 private:
+    void paintEvent(QPaintEvent *event) override;
     Ui::MainWindow *ui;
 };
 #endif // MAINWINDOW_H
