@@ -286,7 +286,7 @@
  mdp:/usr/include/x86_64-linux-gnu/c++/13/bits/os_defines.h
  mdp:/usr/include/x86_64-linux-gnu/gnu/stubs-64.h
  mdp:/usr/include/x86_64-linux-gnu/gnu/stubs.h
- mdp:/usr/include/x86_64-linux-gnu/qt6/QtCore/QPoint
+ mdp:/usr/include/x86_64-linux-gnu/qt6/QtCore/QPointF
  mdp:/usr/include/x86_64-linux-gnu/qt6/QtCore/QVector
  mdp:/usr/include/x86_64-linux-gnu/qt6/QtCore/qalgorithms.h
  mdp:/usr/include/x86_64-linux-gnu/qt6/QtCore/qanystringview.h
@@ -414,3 +414,5 @@
 /home/vladimir/Fractals/main.cpp
 /home/vladimir/Fractals/mainwindow.cpp
  uic:./ui_mainwindow.h
+/home/vladimir/Fractals/drawer.h
+/home/vladimir/Fractals/drawer.cpp

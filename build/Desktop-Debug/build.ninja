@@ -73,6 +73,14 @@ build CMakeFiles/Fractals.dir/mainwindow.cpp.o: CXX_COMPILER__Fractals_unscanned
   OBJECT_DIR = CMakeFiles/Fractals.dir
   OBJECT_FILE_DIR = CMakeFiles/Fractals.dir
 
+build CMakeFiles/Fractals.dir/drawer.cpp.o: CXX_COMPILER__Fractals_unscanned_Debug /home/vladimir/Fractals/drawer.cpp || cmake_object_order_depends_target_Fractals
+  DEFINES = -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB
+  DEP_FILE = CMakeFiles/Fractals.dir/drawer.cpp.o.d
+  FLAGS = -DQT_QML_DEBUG -g -std=gnu++17 -fdiagnostics-color=always -fPIC
+  INCLUDES = -I/home/vladimir/Fractals/build/Desktop-Debug/Fractals_autogen/include -isystem /usr/include/x86_64-linux-gnu/qt6/QtCore -isystem /usr/include/x86_64-linux-gnu/qt6 -isystem /usr/lib/x86_64-linux-gnu/qt6/mkspecs/linux-g++ -isystem /usr/include/x86_64-linux-gnu/qt6/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt6/QtGui
+  OBJECT_DIR = CMakeFiles/Fractals.dir
+  OBJECT_FILE_DIR = CMakeFiles/Fractals.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target Fractals
@@ -81,7 +89,7 @@ build CMakeFiles/Fractals.dir/mainwindow.cpp.o: CXX_COMPILER__Fractals_unscanned
 #############################################
 # Link the executable Fractals
 
-build Fractals: CXX_EXECUTABLE_LINKER__Fractals_Debug CMakeFiles/Fractals.dir/Fractals_autogen/mocs_compilation.cpp.o CMakeFiles/Fractals.dir/main.cpp.o CMakeFiles/Fractals.dir/mainwindow.cpp.o | /usr/lib/x86_64-linux-gnu/libQt6Widgets.so.6.4.2 /usr/lib/x86_64-linux-gnu/libQt6Gui.so.6.4.2 /usr/lib/x86_64-linux-gnu/libQt6Core.so.6.4.2 /usr/lib/x86_64-linux-gnu/libGLX.so /usr/lib/x86_64-linux-gnu/libOpenGL.so || Fractals_autogen Fractals_autogen_timestamp_deps
+build Fractals: CXX_EXECUTABLE_LINKER__Fractals_Debug CMakeFiles/Fractals.dir/Fractals_autogen/mocs_compilation.cpp.o CMakeFiles/Fractals.dir/main.cpp.o CMakeFiles/Fractals.dir/mainwindow.cpp.o CMakeFiles/Fractals.dir/drawer.cpp.o | /usr/lib/x86_64-linux-gnu/libQt6Widgets.so.6.4.2 /usr/lib/x86_64-linux-gnu/libQt6Gui.so.6.4.2 /usr/lib/x86_64-linux-gnu/libQt6Core.so.6.4.2 /usr/lib/x86_64-linux-gnu/libGLX.so /usr/lib/x86_64-linux-gnu/libOpenGL.so || Fractals_autogen Fractals_autogen_timestamp_deps
   FLAGS = -DQT_QML_DEBUG -g
   LINK_LIBRARIES = /usr/lib/x86_64-linux-gnu/libQt6Widgets.so.6.4.2  /usr/lib/x86_64-linux-gnu/libQt6Gui.so.6.4.2  /usr/lib/x86_64-linux-gnu/libQt6Core.so.6.4.2  /usr/lib/x86_64-linux-gnu/libGLX.so  /usr/lib/x86_64-linux-gnu/libOpenGL.so
   OBJECT_DIR = CMakeFiles/Fractals.dir
@@ -181,7 +189,7 @@ build Fractals_autogen/timestamp Fractals_autogen/mocs_compilation.cpp | ${cmake
 #############################################
 # Phony custom command for CMakeFiles/Fractals_autogen_timestamp_deps
 
-build CMakeFiles/Fractals_autogen_timestamp_deps | ${cmake_ninja_workdir}CMakeFiles/Fractals_autogen_timestamp_deps: phony /usr/lib/x86_64-linux-gnu/libQt6Widgets.so.6.4.2 /usr/lib/x86_64-linux-gnu/libQt6Core.so.6.4.2 /usr/lib/qt6/libexec/moc /usr/lib/qt6/libexec/uic
+build CMakeFiles/Fractals_autogen_timestamp_deps | ${cmake_ninja_workdir}CMakeFiles/Fractals_autogen_timestamp_deps: phony /usr/lib/x86_64-linux-gnu/libQt6Widgets.so.6.4.2 /usr/lib/qt6/libexec/uic /usr/lib/qt6/libexec/moc /usr/lib/x86_64-linux-gnu/libQt6Core.so.6.4.2
 
 
 #############################################

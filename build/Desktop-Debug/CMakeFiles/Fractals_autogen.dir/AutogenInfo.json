@@ -217,6 +217,12 @@
 	"HEADERS" : 
 	[
 		[
+			"/home/vladimir/Fractals/drawer.h",
+			"MU",
+			"EWIEGA46WW/moc_drawer.cpp",
+			null
+		],
+		[
 			"/home/vladimir/Fractals/mainwindow.h",
 			"MU",
 			"EWIEGA46WW/moc_mainwindow.cpp",
@@ -281,6 +287,7 @@
 	"SETTINGS_FILE" : "/home/vladimir/Fractals/build/Desktop-Debug/CMakeFiles/Fractals_autogen.dir/AutogenUsed.txt",
 	"SOURCES" : 
 	[
+		[ "/home/vladimir/Fractals/drawer.cpp", "MU", null ],
 		[ "/home/vladimir/Fractals/main.cpp", "MU", null ],
 		[ "/home/vladimir/Fractals/mainwindow.cpp", "MU", null ]
 	],

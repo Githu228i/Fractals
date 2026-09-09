@@ -4,6 +4,8 @@ Fractals_autogen/timestamp: \
 	/home/vladimir/Fractals/build/Desktop-Debug/CMakeFiles/3.28.3/CMakeCXXCompiler.cmake \
 	/home/vladimir/Fractals/build/Desktop-Debug/CMakeFiles/3.28.3/CMakeSystem.cmake \
 	/home/vladimir/Fractals/build/Desktop-Debug/Fractals_autogen/moc_predefs.h \
+	/home/vladimir/Fractals/drawer.cpp \
+	/home/vladimir/Fractals/drawer.h \
 	/home/vladimir/Fractals/main.cpp \
 	/home/vladimir/Fractals/mainwindow.cpp \
 	/home/vladimir/Fractals/mainwindow.h \
@@ -290,7 +292,7 @@ Fractals_autogen/timestamp: \
 	/usr/include/x86_64-linux-gnu/c++/13/bits/os_defines.h \
 	/usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
 	/usr/include/x86_64-linux-gnu/gnu/stubs.h \
-	/usr/include/x86_64-linux-gnu/qt6/QtCore/QPoint \
+	/usr/include/x86_64-linux-gnu/qt6/QtCore/QPointF \
 	/usr/include/x86_64-linux-gnu/qt6/QtCore/QVector \
 	/usr/include/x86_64-linux-gnu/qt6/QtCore/qalgorithms.h \
 	/usr/include/x86_64-linux-gnu/qt6/QtCore/qanystringview.h \

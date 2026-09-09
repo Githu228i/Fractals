@@ -6,20 +6,37 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>1000</width>
-    <height>800</height>
+    <width>2000</width>
+    <height>1300</height>
    </rect>
   </property>
   <property name="windowTitle">
    <string>MainWindow</string>
   </property>
-  <widget class="QWidget" name="centralwidget"/>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QSlider" name="slider">
+    <property name="geometry">
+     <rect>
+      <x>119</x>
+      <y>1065</y>
+      <width>1781</width>
+      <height>161</height>
+     </rect>
+    </property>
+    <property name="maximum">
+     <number>5</number>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Horizontal</enum>
+    </property>
+   </widget>
+  </widget>
   <widget class="QMenuBar" name="menubar">
    <property name="geometry">
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>1000</width>
+     <width>2000</width>
      <height>20</height>
     </rect>
    </property>

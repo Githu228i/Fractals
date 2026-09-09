@@ -3,7 +3,7 @@
 
 #include <QMainWindow>
 #include <QVector>
-#include <QPoint>
+#include <QPointF>
 
 QT_BEGIN_NAMESPACE
 namespace Ui {
@@ -19,8 +19,12 @@ public:
     MainWindow(QWidget *parent = nullptr);
     ~MainWindow();
 
-    QVector<QPoint> points;
-    void drawPoint(QPoint point);
+    QVector<QPointF> points;
+    QVector<QVector<QPointF>> fractals;
+    void drawPoint(QPointF point);
+    void draw();
+    void changeFractal();
+    const int fractal_count = 9;
 
 private:
     void paintEvent(QPaintEvent *event) override;
