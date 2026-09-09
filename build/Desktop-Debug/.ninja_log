@@ -1,0 +1,10 @@
+# ninja log v5
+1	28	0	/home/vladimir/Fractals/build/Desktop-Debug/CMakeFiles/cmake.verify_globs	5229229f98fcdc3e
+28	169	1788968519943454064	Fractals_autogen/timestamp	c93bea33b19263cb
+28	169	1788968519943454064	Fractals_autogen/mocs_compilation.cpp	c93bea33b19263cb
+28	169	1788968519943454064	/home/vladimir/Fractals/build/Desktop-Debug/Fractals_autogen/timestamp	c93bea33b19263cb
+28	169	1788968519943454064	/home/vladimir/Fractals/build/Desktop-Debug/Fractals_autogen/mocs_compilation.cpp	c93bea33b19263cb
+169	1083	1788968520862452916	CMakeFiles/Fractals.dir/Fractals_autogen/mocs_compilation.cpp.o	5dc4a6d3bd73d085
+169	1123	1788968520902452866	CMakeFiles/Fractals.dir/main.cpp.o	8d4c79d5ba278817
+169	1141	1788968520921452843	CMakeFiles/Fractals.dir/mainwindow.cpp.o	a888928e7e6de3d7
+1141	1326	1788968521104452612	Fractals	8733b12769bce54c
