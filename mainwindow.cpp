@@ -74,13 +74,12 @@ void MainWindow::paintEvent(QPaintEvent *event)
     QPainter painter(this);
     painter.setBrush(Qt::red);
     for (const QPointF &point : points) {
-        painter.drawEllipse(point, 1, 1);
+        painter.drawEllipse(point, 0.001, 0.001);
     }
     for (int i = 1; i < points.size(); ++i) {
         painter.drawLine(points[i - 1], points[i]);
     }
     painter.drawLine(points[points.length() - 1], points[0]);
-
 }
 
 MainWindow::~MainWindow()
