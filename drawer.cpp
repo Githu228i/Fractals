@@ -8,7 +8,7 @@ Drawer::Drawer(MainWindow *window) {
 void Drawer::DrawFractals() {
     for (int q = 0; q <= main -> fractal_count; q++) {
         if (main->fractals.empty()) {
-            main->fractals.push_back(QVector<QPointF>({QPointF(600, 730.94), QPointF(1000, 38.12), QPointF(1400, 730.94), QPointF(600, 730.94)}));
+            main->fractals.push_back(QVector<QPointF>({main->PointF, main->PointS, main->PointTh, main->PointF}));
         } else {
             main->fractals.push_back(QVector<QPointF>());
             for (int i = 1; i < main->fractals[main->fractals.length() - 2].length(); i++) {

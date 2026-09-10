@@ -25,6 +25,7 @@ public:
     void draw();
     void changeFractal();
     const int fractal_count = 9;
+    const QPointF PointF = QPointF(600, 730.94), PointS = QPointF(1000, 38.12), PointTh = QPointF(1400, 730.94);
 
 private:
     void paintEvent(QPaintEvent *event) override;
